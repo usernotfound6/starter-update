@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="jquery.js"></script>
+  <script src="script.js"></script>
+  <title>jQuery App</title>
+</head>
+<body>
+  <h1>jQuery App</h1>
+
+  <form>
+    <input
+      id="todoInput"
+      placeholder="To-Do Text"
+      type="text"
+    >
+    <input
+      id="authorInput"
+      placeholder="Author"
+      type="text"
+    >
+    <button id="submitButton">Submit</button>
+  </form>
+
+  <h3>Your To-Do List:</h3>
+  <p>You currently have <span  id="todoCount">2</span> to-dos:</p>
+  <ul id="todoList">
+    <!-- This is where the to-dos will be rendered -->
+    <li>
+      <button class="deleteButton">❌</button>
+      make a hit indie game (kris)
+    </li>
+    <li>
+      <button class="deleteButton">❌</button>
+      become CEO of Prime Digital Academy (emma)
+    </li>
+  </ul>
+</body>
+</html>
